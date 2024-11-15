@@ -4,7 +4,7 @@ import numpy as np
 
 # Load the Haar Cascade classifier for face detection
 face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
-
+# print("hiii")
 # Set up Streamlit page configuration
 st.title("Face Detection App")
 st.text("This app detects faces in real-time from your webcam.")
